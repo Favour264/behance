@@ -1,0 +1,7 @@
+
+.custom-bullet::before {
+  content: "\2022"; /* Unicode character for bullet point */
+  font-size:1.5rem;
+  color: rgb(196, 21, 196); /* Change color as desired */
+  margin-right: 8px; /* Adjust spacing between bullet and text */
+}
